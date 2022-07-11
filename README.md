@@ -27,3 +27,11 @@
 ![image](https://user-images.githubusercontent.com/103022040/178247531-95182b18-4ac2-442d-a497-77c8dff7dade.png)
  - ##### To test the connection with the hosts, use the following command in the terminal on your control node
 ![image](https://user-images.githubusercontent.com/103022040/178255272-d164a820-b147-4d32-a7dd-840875ef4b8b.png)
+- #### We can check the inventory file
+![image](https://user-images.githubusercontent.com/103022040/178259659-52bba6c7-2f29-465f-ab8c-dce8616803f0.png)
+### Playbook in Ansible
+- #### Create a yml file using vi editor to create a playbook 
+![image](https://user-images.githubusercontent.com/103022040/178264078-72c6b739-eb10-485b-8993-f2f2b4cd07fe.png)
+- #### View the content inside the file 
+![image](https://user-images.githubusercontent.com/103022040/178264744-934fc5df-d4c4-4db4-917e-e1c58bffa426.png)
+
