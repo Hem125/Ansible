@@ -37,5 +37,9 @@
 - #### Run the following command to run the playbook 
 ![image](https://user-images.githubusercontent.com/103022040/178412988-b262b766-35d9-46c5-933e-69e5a254600f.png)
 ![ansibleplaybookrun](https://user-images.githubusercontent.com/103022040/178413087-6ebc560f-570e-4ad6-a341-8ab019efcf3d.JPG)
+- #### lets run another playbook with following content
+![image](https://user-images.githubusercontent.com/103022040/178416933-2bd61543-8d92-4a84-9dde-dd5aa903c42b.png)
+- #### Playbook using run command shows the output in this format
+![image](https://user-images.githubusercontent.com/103022040/178417503-a60a6fb5-3308-41cd-82df-4c4ae718f348.png)
 
 
