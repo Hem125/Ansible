@@ -34,4 +34,8 @@
 ![image](https://user-images.githubusercontent.com/103022040/178264078-72c6b739-eb10-485b-8993-f2f2b4cd07fe.png)
 - #### View the content inside the file 
 ![image](https://user-images.githubusercontent.com/103022040/178264744-934fc5df-d4c4-4db4-917e-e1c58bffa426.png)
+- #### Run the following command to run the playbook 
+![image](https://user-images.githubusercontent.com/103022040/178412988-b262b766-35d9-46c5-933e-69e5a254600f.png)
+![ansibleplaybookrun](https://user-images.githubusercontent.com/103022040/178413087-6ebc560f-570e-4ad6-a341-8ab019efcf3d.JPG)
+
 
