@@ -119,3 +119,55 @@ Ansible stores all the remote servers info in a file called as inventory file We
 sudo vim /etc/ansible/hosts
 
 Here copy and paste the ip addresses of the managed nodes
+
+ansible file to add copy and update 
+
+
+---
+  - name: Playbook
+    hosts: webservers
+    become_user: amantya
+    become: true
+    become_method: sudo
+    tasks:
+      - name: run echo command
+        command: /bin/echo hello sammy
+      - name: apt-get clean
+        shell: apt-get clean
+        become: true
+        become_user: root
+      - name: apt-get update
+        shell: apt-get update
+        become: true
+        become_user: root
+      - name: ensure apache is at the latest version
+        package:
+          become: true
+          become_user: root
+          name: nginx
+          state: latest
+      - name: ensure apache is running
+        service:
+          name: nginx
+          state: started
+
+https://www.redhat.com/en/services/training/rh294-red-hat-linux-automation-with-ansible?section=outline
+https://cloudcone.com/docs/article/install-and-configure-ansible-on-ubuntu/ (Installation)
+https://www.javatpoint.com/ansible-ad-hoc-commands (Roadmap)
+https://www.unixarena.com/2018/07/ansible-file-and-copy-module-ad-hoc-mode.html/ (File configuration copy adhoc command)
+https://phoenixnap.com/kb/ssh-permission-denied-publickey (ssh permission denied)
+ad-hoc command
+become: true
+  become_method: su
+  become_user: saurabh1
+
+https://www.middlewareinventory.com/blog/ansible-playbook-example/ (ansible playbook)
+https://www.middlewareinventory.com/blog/ansible-ad-hoc-commands/ (ansible-adhoc)
+
+https://www.golinuxcloud.com/create-ansible-role-with-example-playbooks/ (ansible-roles)
+
+
+
+   sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --dport 8082 -j DROP
+  
+https://docs.e2enetworks.com/security/firewall/iptables.html
