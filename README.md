@@ -171,3 +171,11 @@ https://www.golinuxcloud.com/create-ansible-role-with-example-playbooks/ (ansibl
    sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --dport 8082 -j DROP
   
 https://docs.e2enetworks.com/security/firewall/iptables.html
+
+
+## Vault 
+ansible-vault encrypt apache1.yaml
+
+run playbook with parameter --ask-vault-pass for password ask
+
+
